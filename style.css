@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    font-family: "Bahnschrift", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #3498db, #2980b9); /* Gradiente azul */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calculator {
+    text-align: center;
+    background-color: #f4f4f4; /* Cor de fundo mais clara */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px; /* Espaço entre a calculadora e o footer */
+}
+
+#display {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 2em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    background-color: #e4e6e7; /* Cor de fundo cinza claro */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.4em;
+    color: #333; /* Cor do texto mais escura para melhor visibilidade */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Texto em negrito para maior destaque */
+}
+
+button.operator {
+    background-color: #e67e22; /* Cor de fundo para operadores laranja */
+    color: #fff; /* Cor do texto para operadores branco */
+}
+
+button:hover {
+    background-color: #3498db; /* Azul mais claro ao passar o mouse */
+    color: #fff; /* Cor do texto branco ao passar o mouse */
+}
+
+.footer {
+    color: #fff; /* Cor do texto branco no footer */
+    text-align: center;
+}
