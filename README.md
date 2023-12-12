@@ -10,11 +10,9 @@ Esta é uma calculadora simples que suporta operações básicas de adição, su
 - Divisão (/)
 
 ## Uso
-
-1. Abra o arquivo `index.html` em seu navegador.
-2. Utilize os botões na calculadora para inserir números e realizar operações.
-3. A expressão inserida é exibida no campo de exibição.
-4. Pressione "=" para calcular o resultado.
+1. Utilize os botões na calculadora para inserir números e realizar operações.
+2. A expressão inserida é exibida no campo de exibição.
+3. Pressione "=" para calcular o resultado.
 
 ## Script JavaScript
 
